@@ -10,4 +10,4 @@ experimenting with tailwind - rewrote personal site using it
 	* flask --app app run --debug
 
 ## tailwind
-* npx tailwindcss -i static/main.css -o static/output.css --watch
+* npx tailwindcss -i static/main.css -o static/output.css --watch --minify
