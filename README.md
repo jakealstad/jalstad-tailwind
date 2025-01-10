@@ -1,5 +1,5 @@
 # jalstad-tailwind
-experimenting with tailwind - rewrote personal site using it
+personal site rewritten using tailwind
 
 # local dev
 
