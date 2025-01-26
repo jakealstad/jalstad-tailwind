@@ -6,7 +6,9 @@
     	<title>{% block title%}Jake Alstad - Python &amp; Django web developer{% endblock %}</title>
         <meta name="description" content="The personal site of Jake Alstad, a Web Developer and Designer living in Wausau, WI. I love Python, Django, Flask, and other open source software." />
     	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='output.css') }}">
+        {% if not debug %}
         <script defer src="https://jalstad.com/analytics.js" data-website-id="963cebec-28b4-4974-acf0-b5ee34c71914"></script>
+        {% endif %}
     </head>
     <body>
     	
