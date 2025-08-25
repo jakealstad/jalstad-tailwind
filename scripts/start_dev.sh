@@ -1,1 +1,0 @@
-uv run -p 3 --with-requirements requirements.txt flask run --debug
